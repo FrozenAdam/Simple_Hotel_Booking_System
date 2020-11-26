@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/J3.L.P0012_TheHotel"> 
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DBCon" password="123456" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;instanceName=SQL2005;databaseName=The_Hotel" username="sa"/>
+</Context>

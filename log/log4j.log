@@ -1,0 +1,357 @@
+ERROR   2020-10-27 15:03:36,324 [http-nio-8080-exec-11] system.controllers.RegisterController  - Error at RegisterController: Invalid object name 'Account'.
+ERROR   2020-10-27 15:04:44,742 [http-nio-8080-exec-13] system.controllers.RegisterController  - Error at RegisterController: Invalid object name 'Account'.
+ERROR   2020-10-27 15:05:25,689 [http-nio-8080-exec-14] system.controllers.RegisterController  - Error at RegisterController: Invalid column name 'RoleID'.
+ERROR   2020-10-27 15:09:19,389 [http-nio-8080-exec-37] system.controllers.RegisterController  - Error at RegisterController: The index 7 is out of range.
+ERROR   2020-10-27 15:09:41,893 [http-nio-8080-exec-28] system.controllers.RegisterController  - Error at RegisterController: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Accounts__Status__4BAC3F29". The conflict occurred in database "The_Hotel", table "dbo.tblStatus", column 'StatusID'.
+ERROR   2020-10-27 15:19:30,781 [http-nio-8080-exec-60] system.controllers.LoginController  - Error at LoginController: The column name RoleID is not valid.
+ERROR   2020-10-27 15:19:33,048 [http-nio-8080-exec-61] system.controllers.LoginController  - Error at LoginController: The column name RoleID is not valid.
+ERROR   2020-10-27 15:19:34,990 [http-nio-8080-exec-53] system.controllers.LoginController  - Error at LoginController: The column name RoleID is not valid.
+ERROR   2020-10-28 19:28:12,853 [http-nio-8080-exec-62] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/home.jsp] at line [89]
+
+86:                         Hotel Name: <input type="text" placeholder="Search Hotel Name" name="txtSearchName" style="width: 260px; display: inline;"/> </br>
+87:                         Hotel Area: <select name="txtRoomType" style="width: 270px; display: inline;">
+88:                             <c:forEach var="typeName" items="${requestScope.AREA}">
+89:                                 <option value="${typeName.id}">${typeName.name}</option>
+90:                             </c:forEach>
+91:                         </select> </br>
+92:                         Check-In Date: <input type="date" name="txtCheckinDate" min="min" max="2023-12-31" required style="width: 240px;" id="checkinDate"/></br>
+
+
+Stacktrace:
+ERROR   2020-10-29 17:52:53,514 [http-nio-8080-exec-62] system.controllers.SearchHotelController  - Error at SearchHotelController: For input string: ""
+ERROR   2020-10-29 17:53:38,162 [http-nio-8080-exec-80] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-29 17:54:20,030 [http-nio-8080-exec-77] system.controllers.SearchHotelController  - Error at SearchHotelController: For input string: ""
+ERROR   2020-10-29 18:41:40,876 [http-nio-8080-exec-168] system.controllers.SearchHotelController  - Error at SearchHotelController: The column name tblAvailableRoom.[Booked Room] is not valid.
+ERROR   2020-10-29 18:42:10,285 [http-nio-8080-exec-157] system.controllers.SearchHotelController  - Error at SearchHotelController: The column name [Booked Room] is not valid.
+ERROR   2020-10-29 18:57:06,660 [http-nio-8080-exec-227] system.controllers.SearchHotelController  - Error at SearchHotelController: The index 1 is out of range.
+ERROR   2020-10-29 18:58:43,568 [http-nio-8080-exec-232] system.controllers.SearchHotelController  - Error at SearchHotelController: Conversion failed when converting date and/or time from character string.
+ERROR   2020-10-29 18:58:49,466 [http-nio-8080-exec-239] system.controllers.SearchHotelController  - Error at SearchHotelController: Conversion failed when converting date and/or time from character string.
+ERROR   2020-10-29 19:02:34,088 [http-nio-8080-exec-251] system.controllers.SearchHotelController  - Error at SearchHotelController: Conversion failed when converting date and/or time from character string.
+ERROR   2020-10-29 19:05:34,559 [http-nio-8080-exec-261] system.controllers.SearchHotelController  - Error at SearchHotelController: Uncompilable source code - Erroneous sym type: (java.lang.String,int,<any>,java.lang.String,int)java.util.List<system.dtos.HotelDTO>
+ERROR   2020-10-30 16:29:40,756 [http-nio-8080-exec-85] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:29:42,483 [http-nio-8080-exec-86] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:29:43,105 [http-nio-8080-exec-90] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:30:10,626 [http-nio-8080-exec-91] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:30:46,767 [http-nio-8080-exec-98] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:30:47,285 [http-nio-8080-exec-99] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:31:14,792 [http-nio-8080-exec-96] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:32:37,873 [http-nio-8080-exec-110] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-30 16:50:14,697 [http-nio-8080-exec-170] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/viewdetail.jsp] at line [63]
+
+60:             </thead>
+61:             <tbody>
+62:                 <tr>
+63:                     <td>Room Type: ${requestScope.ROOM.roomType}</td>>
+64:                     <td>Quantity: ${requestScope.ROOM.quantity}</td>
+65:                     <td>Booked: ${requestScope.ROOM.booked}</td>
+66:                     <td>Available: ${requestScope.ROOM.available}</td>
+
+
+Stacktrace:
+ERROR   2020-10-30 16:55:07,048 [http-nio-8080-exec-175] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/viewdetail.jsp] at line [63]
+
+60:             </thead>
+61:             <tbody>
+62:                 <tr>
+63:                     <td>Room Type: ${requestScope.ROOM.roomType}</td>>
+64:                     <td>Quantity: ${requestScope.ROOM.quantity}</td>
+65:                     <td>Booked: ${requestScope.ROOM.booked}</td>
+66:                     <td>Available: ${requestScope.ROOM.available}</td>
+
+
+Stacktrace:
+ERROR   2020-10-30 16:57:12,418 [http-nio-8080-exec-177] system.controllers.FilterDispatcher  - Error at FilterDispatcher: java.lang.NumberFormatException: For input string: "roomType"
+ERROR   2020-10-30 16:57:44,568 [http-nio-8080-exec-186] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/viewdetail.jsp] at line [63]
+
+60:             </thead>
+61:             <tbody>
+62:                 <tr>
+63:                     <td>Room Type: ${requestScope.ROOM.roomType}</td>
+64:                     <td>Quantity: ${requestScope.ROOM.quantity}</td>
+65:                     <td>Booked: ${requestScope.ROOM.booked}</td>
+66:                     <td>Available: ${requestScope.ROOM.available}</td>
+
+
+Stacktrace:
+ERROR   2020-10-30 16:57:56,582 [http-nio-8080-exec-187] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/viewdetail.jsp] at line [64]
+
+61:             <tbody>
+62:                 <tr>
+63:                     
+64:                     <td>Quantity: ${requestScope.ROOM.quantity}</td>
+65:                     <td>Booked: ${requestScope.ROOM.booked}</td>
+66:                     <td>Available: ${requestScope.ROOM.available}</td>
+67:                     <td>
+
+
+Stacktrace:
+ERROR   2020-10-30 17:00:08,947 [http-nio-8080-exec-188] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/viewdetail.jsp] at line [63]
+
+60:             </thead>
+61:             <tbody>
+62:                 <tr>
+63:                     <td>Room Type: ${requestScope.ROOM.roomType}</td>
+64:                     <td>Quantity: ${requestScope.ROOM.quantity}</td>
+65:                     <td>Booked: ${requestScope.ROOM.booked}</td>
+66:                     <td>Available: ${requestScope.ROOM.available}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:07:36,316 [http-nio-8080-exec-24] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:07:57,611 [http-nio-8080-exec-15] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:09:08,313 [http-nio-8080-exec-33] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:09:54,850 [http-nio-8080-exec-24] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:13:22,764 [http-nio-8080-exec-43] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:13:39,144 [http-nio-8080-exec-39] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:14:11,952 [http-nio-8080-exec-48] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:22:14,465 [http-nio-8080-exec-63] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:22:55,392 [http-nio-8080-exec-73] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:32:35,656 [http-nio-8080-exec-113] system.controllers.AddToCartController  - Error at AddToCartController: null
+ERROR   2020-10-31 11:32:37,085 [http-nio-8080-exec-128] system.controllers.AddToCartController  - Error at AddToCartController: null
+ERROR   2020-10-31 11:32:46,094 [http-nio-8080-exec-130] system.controllers.AddToCartController  - Error at AddToCartController: null
+ERROR   2020-10-31 11:42:40,151 [http-nio-8080-exec-175] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:43:26,091 [http-nio-8080-exec-183] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null
+ERROR   2020-10-31 11:53:50,831 [http-nio-8080-exec-237] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:54:32,773 [http-nio-8080-exec-238] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:54:35,941 [http-nio-8080-exec-235] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:55:43,638 [http-nio-8080-exec-239] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:55:44,076 [http-nio-8080-exec-237] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:55:44,243 [http-nio-8080-exec-232] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [87]
+
+84:                 <tbody>
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hoteName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:57:30,485 [http-nio-8080-exec-235] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [88]
+
+85:                     <c:forEach var="cart" items="${sessionScope.CART.cart}">
+86:                         <tr>
+87:                             <td>${cart.value.hotelName}</td>
+88:                             <td>${cart.value.name}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+91:                             <td>${cart.value.quantity}</td>
+
+
+Stacktrace:
+ERROR   2020-10-31 11:57:50,286 [http-nio-8080-exec-242] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [89]
+
+86:                         <tr>
+87:                             <td>${cart.value.hotelName}</td>
+88:                             <td>${cart.value.roomType}</td>
+89:                             <td>${cart.value.checkinDate}</td>
+90:                             <td>${cart.value.checkoutDate}</td>
+91:                             <td>${cart.value.quantity}</td>
+92: 
+
+
+Stacktrace:
+ERROR   2020-10-31 11:58:16,933 [http-nio-8080-exec-247] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [89]
+
+86:                         <tr>
+87:                             <td>${cart.value.hotelName}</td>
+88:                             <td>${cart.value.roomType}</td>
+89:                             <td>${cart.value.in}</td>
+90:                             <td>${cart.value.out}</td>
+91:                             <td>${cart.value.quantity}</td>
+92: 
+
+
+Stacktrace:
+ERROR   2020-10-31 11:59:33,331 [http-nio-8080-exec-249] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [98]
+
+95:                         <td>$${cart.value.price}</td>
+96:                         <td>$${cart.value.price * cart.value.cartQuantity}</td>
+97:                         <td>
+98:                             <input type="hidden" name="txtProductID" value="${cart.value.id}"/>
+99:                             <input type="hidden" name="txtQuantity" value="${cart.value.quantity}"/>
+100:                             <input type="submit" value="Update" class="btn btn-block btn-primary" style="display: inline; text-align: center; font-family: Tahoma; font-weight: bold;"/>
+101:                         </td>
+
+
+Stacktrace:
+ERROR   2020-10-31 12:00:05,389 [http-nio-8080-exec-247] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [106]
+
+103:                     <td>
+104:                         <form action="DeleteCart" method="POST">
+105:                             <input type="hidden" name="txtRoomID" value="${cart.value.roomID}"/>
+106:                             <input type="submit" value="Delete" class="btn btn-block btn-primary" style="display: inline; text-align: center; font-family: Tahoma; font-weight: bold;" onclick="return confirm('Are you sure you want to delete this ${cart.value.name} product ?')"/>
+107:                         </form>
+108:                     </td>
+109:                 </tr>
+
+
+Stacktrace:
+ERROR   2020-10-31 12:03:02,403 [http-nio-8080-exec-241] system.controllers.FilterDispatcher  - Error at FilterDispatcher: An exception occurred processing [/cart.jsp] at line [91]
+
+88:                             <td>${cart.value.roomType}</td>
+89:                             <td>${sessionScope.CHECKIN}</td>
+90:                             <td>${sessionScope.CHECKOUT}</td>
+91:                             <td>${cart.value.vacant}</td>
+92: 
+93:                     <form action="UpdateCart" method="POST">
+94:                         <td><input type="number" value="${cart.value.cartQuantity}" min="1" name="txtCartQuantity"/></td>
+
+
+Stacktrace:
+ERROR   2020-10-31 12:04:53,137 [http-nio-8080-exec-241] system.controllers.UpdateCartController  - Error at UpdateCartController: null
+ERROR   2020-10-31 12:04:55,495 [http-nio-8080-exec-246] system.controllers.UpdateCartController  - Error at UpdateCartController: null
+ERROR   2020-10-31 12:04:58,319 [http-nio-8080-exec-244] system.controllers.UpdateCartController  - Error at UpdateCartController: null
+ERROR   2020-10-31 12:05:09,678 [http-nio-8080-exec-243] system.controllers.DeleteCartController  - Error at DeleteCartController: null
+ERROR   2020-10-31 12:05:12,676 [http-nio-8080-exec-248] system.controllers.DeleteCartController  - Error at DeleteCartController: null
+ERROR   2020-10-31 12:05:44,129 [http-nio-8080-exec-250] system.controllers.DeleteCartController  - Error at DeleteCartController: null
+ERROR   2020-10-31 12:14:24,795 [http-nio-8080-exec-261] system.controllers.UpdateCartController  - Error at UpdateCartController: null
+ERROR   2020-10-31 12:56:04,039 [http-nio-8080-exec-316] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:56:17,741 [http-nio-8080-exec-299] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:57:24,679 [http-nio-8080-exec-332] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:57:39,032 [http-nio-8080-exec-311] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:58:33,779 [http-nio-8080-exec-334] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:59:14,097 [http-nio-8080-exec-340] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 12:59:25,347 [http-nio-8080-exec-337] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:00:10,977 [http-nio-8080-exec-333] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:03:28,326 [http-nio-8080-exec-352] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:03:43,009 [http-nio-8080-exec-355] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:04:15,696 [http-nio-8080-exec-355] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:23:11,436 [http-nio-8080-exec-412] system.controllers.AddToCartController  - Error at AddToCartController: null
+ERROR   2020-10-31 13:27:30,572 [http-nio-8080-exec-419] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:35:47,022 [http-nio-8080-exec-426] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 13:56:18,622 [http-nio-8080-exec-442] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 18:00:21,072 [http-nio-8080-exec-470] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 18:48:19,535 [http-nio-8080-exec-575] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 18:48:37,079 [http-nio-8080-exec-589] system.utility.SendingMail  - Error at SendingMail: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z30sm8752375pfq.87 - gsmtp
+
+ERROR   2020-10-31 18:54:52,272 [http-nio-8080-exec-585] system.utility.SendingMail  - Error at SendingMail: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 199sm1216846pgg.18 - gsmtp
+
+ERROR   2020-10-31 18:57:31,019 [http-nio-8080-exec-588] system.utility.SendingMail  - Error at SendingMail: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h5sm8326600pfn.12 - gsmtp
+
+ERROR   2020-10-31 21:47:16,779 [http-nio-8080-exec-711] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 21:53:30,986 [http-nio-8080-exec-760] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 21:55:55,156 [http-nio-8080-exec-758] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 21:55:57,691 [http-nio-8080-exec-763] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:00:34,109 [http-nio-8080-exec-772] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:01:18,154 [http-nio-8080-exec-778] system.controllers.UpdateCartController  - Error at UpdateCartController: For input string: ""
+ERROR   2020-10-31 22:02:31,432 [http-nio-8080-exec-779] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:10:45,769 [http-nio-8080-exec-788] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:14:54,454 [http-nio-8080-exec-795] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:30:07,469 [http-nio-8080-exec-859] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:32:34,771 [http-nio-8080-exec-872] system.controllers.AddToCartController  - Error at AddToCartController: Uncompilable source code - Erroneous tree type: <any>
+ERROR   2020-10-31 22:33:09,437 [http-nio-8080-exec-874] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:41:32,928 [http-nio-8080-exec-905] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:48:39,130 [http-nio-8080-exec-903] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:49:22,740 [http-nio-8080-exec-898] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:51:22,508 [http-nio-8080-exec-903] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:58:07,378 [http-nio-8080-exec-902] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 22:59:15,343 [http-nio-8080-exec-902] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:00:58,672 [http-nio-8080-exec-909] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:03:25,501 [http-nio-8080-exec-916] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:03:43,507 [http-nio-8080-exec-925] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:03:47,019 [http-nio-8080-exec-927] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:04:49,381 [http-nio-8080-exec-928] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-10-31 23:05:51,138 [http-nio-8080-exec-946] system.controllers.VerificationCartController  - Error at VerificationCartController: null
+ERROR   2020-10-31 23:06:19,923 [http-nio-8080-exec-942] system.controllers.VerificationCartController  - Error at VerificationCartController: null
+ERROR   2020-10-31 23:06:20,971 [http-nio-8080-exec-948] system.controllers.VerificationCartController  - Error at VerificationCartController: null
+ERROR   2020-10-31 23:06:54,344 [http-nio-8080-exec-948] system.controllers.VerificationCartController  - Error at VerificationCartController: null
+ERROR   2020-11-01 10:23:14,306 [http-nio-8080-exec-9] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 10:26:56,263 [http-nio-8080-exec-16] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 12:53:43,522 [http-nio-8080-exec-187] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 12:55:23,042 [http-nio-8080-exec-199] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 12:58:59,194 [http-nio-8080-exec-218] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 13:09:25,109 [http-nio-8080-exec-242] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 13:14:01,583 [http-nio-8080-exec-237] system.controllers.SearchHotelController  - Error at SearchHotelController: null
+ERROR   2020-11-01 19:51:21,282 [http-nio-8080-exec-322] system.controllers.VerificationCartController  - Error at VerificationCartController: null
+ERROR   2020-11-01 23:28:54,850 [http-nio-8080-exec-493] system.controllers.ViewBookingDetailController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 16:39:03,439 [http-nio-8080-exec-40] system.controllers.ViewBookingDetailController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 16:48:03,212 [http-nio-8080-exec-74] system.controllers.ViewBookingController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 16:48:24,276 [http-nio-8080-exec-33] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:25,126 [http-nio-8080-exec-79] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:28,797 [http-nio-8080-exec-77] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:33,875 [http-nio-8080-exec-81] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:34,950 [http-nio-8080-exec-82] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:35,162 [http-nio-8080-exec-83] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:35,329 [http-nio-8080-exec-73] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:35,631 [http-nio-8080-exec-84] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:35,830 [http-nio-8080-exec-85] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:36,430 [http-nio-8080-exec-33] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:48:43,854 [http-nio-8080-exec-86] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The column name Username is not valid.
+ERROR   2020-11-02 16:50:53,500 [http-nio-8080-exec-86] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: null
+ERROR   2020-11-02 16:51:06,279 [http-nio-8080-exec-85] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:51:06,879 [http-nio-8080-exec-87] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:51:07,058 [http-nio-8080-exec-89] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:51:07,380 [http-nio-8080-exec-80] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:52:11,675 [http-nio-8080-exec-100] system.controllers.ViewBookingController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 16:52:20,580 [http-nio-8080-exec-96] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:52:21,201 [http-nio-8080-exec-92] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:52:21,522 [http-nio-8080-exec-97] system.controllers.SearchBookingHistoryController  - Error at SearchBookingHistoryController: The index 3 is out of range.
+ERROR   2020-11-02 16:52:43,572 [http-nio-8080-exec-105] system.controllers.ViewBookingController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 18:42:56,116 [http-nio-8080-exec-162] system.controllers.ViewBookingController  - Error at ViewBookingDetailController: null
+ERROR   2020-11-02 18:46:57,837 [http-nio-8080-exec-171] system.controllers.ViewBookingController  - Error at ViewBookingController: null
+ERROR   2020-11-02 18:49:08,482 [http-nio-8080-exec-175] system.controllers.ViewBookingController  - Error at ViewBookingController: null
+ERROR   2020-11-02 19:02:32,981 [http-nio-8080-exec-204] system.controllers.ViewBookingController  - Error at ViewBookingController: null
+ERROR   2020-11-02 19:02:47,163 [http-nio-8080-exec-208] system.controllers.ViewBookingController  - Error at ViewBookingController: Incorrect syntax near 'DESC'.
+ERROR   2020-11-02 19:03:56,159 [http-nio-8080-exec-212] system.controllers.ViewBookingController  - Error at ViewBookingController: null
+ERROR   2020-11-02 22:38:12,973 [http-nio-8080-exec-16] system.controllers.ViewBookingController  - Error at ViewBookingController: null
+ERROR   2020-11-16 10:48:46,778 [http-nio-8084-exec-17] system.controllers.ViewHotelDetailsController  - Error at ViewHotelDetailsController: null

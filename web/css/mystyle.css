@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 15, 2020, 5:18:48 PM
+    Author     : Admin
+*/
+/*Common*/
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.bg{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: wheat;
+}
+
+.box{
+    width: 500px;
+    margin: auto;  
+    padding: 80px;  
+    background: white;  
+    border-radius: 15px;  
+}
+
