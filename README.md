@@ -7,6 +7,7 @@ This repo contains the sourse code of a simple Java Web Application for Online H
 * SHA256 Encryption
 * Java Mail API
 * Google reCAPTCHA v2
+* Using Log4j as log file
 
 ## Contact me via
 1. [Github](https://github.com/FrozenAdam)
